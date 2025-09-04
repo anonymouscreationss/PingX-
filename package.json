@@ -1,0 +1,13 @@
+@@ .. @@
+   "scripts": {
+     "dev": "EXPO_NO_TELEMETRY=1 expo start",
++    "start": "EXPO_NO_TELEMETRY=1 expo start --web",
++    "start:tunnel": "EXPO_NO_TELEMETRY=1 expo start --tunnel",
++    "start:mobile": "EXPO_NO_TELEMETRY=1 expo start",
+     "build:web": "expo export --platform web",
++    "build": "expo export --platform web",
++    "preview": "npx serve dist",
++    "backend": "node backend/server.js",
++    "ping-server": "python3 backend/ping_server.py",
+     "lint": "expo lint"
+   },
