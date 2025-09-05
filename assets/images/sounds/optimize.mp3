@@ -1,0 +1,2 @@
+# This would be a real MP3 file in production
+# For demo purposes, we'll use Web Audio API fallback
